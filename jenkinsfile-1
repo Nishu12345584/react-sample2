@@ -1,0 +1,11 @@
+import {
+    Pipeline,
+    TriggerPipelineOnClick
+} from "@morningtrain/react-pipelines";
+/* ----------------------------------------- */
+<Pipeline>
+    <TriggerPipelineOnClick>
+        <a>Click me to navigate</a>
+    </TriggerPipelineOnClick>
+    <NavigateOnPipe route={'users.index'} />
+</Pipeline>
